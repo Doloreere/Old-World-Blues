@@ -1,7 +1,7 @@
 var/obj/effect/lobby_image = new /obj/effect/lobby_image
 
 /obj/effect/lobby_image
-	name = "Polaris"
+	name = "BlueBay"
 	desc = "How are you reading this?"
 	icon = 'icons/misc/title.dmi'
 	icon_state = "title"
