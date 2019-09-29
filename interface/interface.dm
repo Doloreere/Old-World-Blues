@@ -23,6 +23,19 @@
 		src << "\red The forum URL is not set in the server configuration."
 	return
 
+.
+/client/verb/discord()
+	set name = "discord"
+	set desc = "Visit the discord."
+	set hidden = 1
+	if( config.discordurl )
+		if(alert("This will open the discord in your browser. Are you sure?",,"Yes","No")=="No")
+			return
+		src << link(config.discordurl)
+	else
+		src << "\red The discord URL is not set in the server configuration."
+	return
+
 #define RULES_FILE "config/rules.html"
 /client/verb/rules()
 	set name = "Rules"
