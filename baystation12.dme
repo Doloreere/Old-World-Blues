@@ -10,7 +10,6 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "Entropy.dmm"
 #include "code\stylesheet.dm"
 #include "code\world.dm"
 #include "code\__datastructures\priority_queue.dm"
